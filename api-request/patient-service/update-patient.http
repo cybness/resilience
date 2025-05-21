@@ -1,0 +1,12 @@
+### Update an existing patient entity
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174007
+Content-Type: application/json
+
+{
+  "name": "David Bowie UPDATEDs",
+  "email": "ziggy_stardust@gmail.com",
+  "address": "Brixton, London",
+  "dateOfBirth": "1947-01-08"
+}
+
+###
